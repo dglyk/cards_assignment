@@ -1,0 +1,20 @@
+Assume an application named Cards that allows users to create and manage tasks in the form of cards:
+Application users are identified uniquely by their mail address, have a role (Member or Admin) and use a password to authenticate
+themselves before accessing cards
+Members have access to cards they created
+Admins have access to all cards
+A user creates a card by providing a name for it and, optionally, a description and a colour
+Name is mandatory
+colour, if provided, should conform to a “6 alphanumeric characters prefixed with a #“ format
+Upon creation, the status of a card is To Do
+A user can search through cards they have access to
+Filters include name, colour, status and date of creation
+Optionally limit results using page & size or offset & limit options
+Results may be sorted by name, colour, status, date of creation
+A user can request a single card they have access to
+A user can update the name, the description, the colour and/or the status of a card they have access to
+Contents of the description and colour fields can be cleared out
+Available statuses are To Do, In Progress and Done
+A user can delete a card they have access to
+Build a RESTful web service that satisfies the aforementioned requirements using Java, Spring Boot and MySQL.
+ChatGPT

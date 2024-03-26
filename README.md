@@ -1,11 +1,11 @@
-This assignment is built as maven Spring boot project. It has been created using Java 17, so you can compile it by 
+This assignment is built as maven Spring boot project. It has been created using **Java 17**, so you can compile it by 
 
-mvn clean package
-
+**mvn clean package
+**
 and in the prduced target folder, using Java 17, you can run the application as:
 
-java -jar .\New_Cards-0.0.1-SNAPSHOT.jar
-
+**java -jar .\New_Cards-0.0.1-SNAPSHOT.jar
+**
 The application will start on localhost:8080 and will boot up a in memory DB, which if it runs for the first time, will initiate with some starting data.
 
 Under the requests folder you can find the different requests created to develop and test the application. 
@@ -16,15 +16,15 @@ Please note that first you must use the "authenticate" request, in order to prod
 
 In DB exist 3 different users you can use: 
 
-admin@admin.com 
-admin
+userEmail: admin@admin.com 
+userPassword: admin
 which has admin privilleges
 
-member1@members.com
-pass1
+userEmail: member1@members.com
+userPassword: pass1
 
-member2@members.com
-pass2
+userEmail: member2@members.com
+userPassword: pass2
 
 which have member privilleges
 
@@ -32,3 +32,4 @@ After producing the JWT token, you must replace the value following the word Bea
 ![replace_value](https://github.com/dglyk/cards_assignment/assets/11438108/c59206ab-c83d-439a-8cb9-163316548ea5)
 
 You can use the different users and their respective JWT tokens to test the difference in the Access between Admin and member accounts.
+For any further information, notes and remarks, please contact me in dglikiotis@gmail.com

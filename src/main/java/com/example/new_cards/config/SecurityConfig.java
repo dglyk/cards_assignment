@@ -22,19 +22,9 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-      /* httpSecurity.authorizeRequests()
-                .requestMatchers("/api/v1/auth/**")
-                .permitAll()
-                .anyRequest().authenticated()
-                .and()
-                .sessionManagement()
-                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-                .and()
-                .authenticationProvider(authenticationProvider)
-                .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);*/
         httpSecurity.csrf().disable()
                 .authorizeRequests()
-                .requestMatchers("/api/v1/auth/**").permitAll() // Exclude login and token endpoints from authentication
+                .requestMatchers("/api/v1/auth/**").permitAll() // Exclude login endpoints from authentication
                 .anyRequest().authenticated().and().
         exceptionHandling()
                 .accessDeniedHandler(new MyAccessDeniedHandler())

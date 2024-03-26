@@ -1,0 +1,7 @@
+curl --location --request GET 'http://localhost:8080/api/v1/cards/getCard/5' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJST0xFIjoiQURNSU4iLCJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE3MTEzOTgxNjksImV4cCI6MTcxMTQ4NDU2OX0.H10eXyIHt3mL9xqvBBKpxd8hA5I7yS53xjgn-LtCD40' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=E5562B5A99BE55DF09BA2329EDEF4C58' \
+--data '{
+    "name": "chrysiCard6"
+}'

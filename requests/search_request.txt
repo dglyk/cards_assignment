@@ -1,0 +1,14 @@
+curl --location 'http://localhost:8080/api/v1/cards/search' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJST0xFIjoiTUVNQkVSIiwic3ViIjoibWVtYmVyMUBtZW1iZXJzLmNvbSIsImlhdCI6MTcxMTM5ODEwOCwiZXhwIjoxNzExNDg0NTA4fQ.0bmWDT63UWW9UmLO3oPZM2rL4VU5cS0SWEbeBL61uaY' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=BD9C10C7951561289B0B3B2B42A0EB36' \
+--data '{
+
+    "name": "card",
+    "colour": "",
+    "status": "",
+    "dateCreated": "2024-03-25",
+    "sortOrder": "DESC",
+    "sortField": "colour"
+}
+'

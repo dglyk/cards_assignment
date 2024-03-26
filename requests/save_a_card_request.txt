@@ -1,0 +1,8 @@
+curl --location 'http://localhost:8080/api/v1/cards/save' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJST0xFIjoiTUVNQkVSIiwic3ViIjoicGhpbEBwaGlsLmNvbSIsImlhdCI6MTcxMTM5NjkzMSwiZXhwIjoxNzExNDgzMzMxfQ.WtT2oxa3cA4s0l68wZQ3yJy76NkBnpMd1A0QK4ekxJs' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=E5562B5A99BE55DF09BA2329EDEF4C58' \
+--data '{
+    "name": "Phil CARD 44",
+    "colour": "#122332"
+}'

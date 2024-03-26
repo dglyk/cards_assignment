@@ -1,0 +1,10 @@
+curl --location 'http://localhost:8080/api/v1/cards/deleteCard/666' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJST0xFIjoiQURNSU4iLCJzdWIiOiJjaHJ5c2lAY2hyeXNpLmNvbSIsImlhdCI6MTcxMTM4OTUxNiwiZXhwIjoxNzExNDc1OTE2fQ.1sCRGA7jnskT7Bm-6He3NUNA3U4gaQKJhfhkujzfWxg' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=4436E382A07E4E7C00DFE217A3AEF62B' \
+--data-raw '{
+    "id": "652",
+    "name": "chrysiCard6",
+    "status": "IN_PROGRESS",
+    "cardOwner": "chrysi@chrysi.com"
+}'

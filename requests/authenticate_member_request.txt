@@ -1,0 +1,7 @@
+curl --location 'http://localhost:8080/api/v1/auth/authenticate' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=E5562B5A99BE55DF09BA2329EDEF4C58' \
+--data-raw '{
+    "userEmail": "member1@members.com",
+    "userPassword": "pass1"
+}'

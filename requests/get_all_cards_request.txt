@@ -1,0 +1,3 @@
+curl --location 'http://localhost:8080/api/v1/cards/allCards' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJST0xFIjoiQURNSU4iLCJzdWIiOiJjaHJ5c2lAY2hyeXNpLmNvbSIsImlhdCI6MTcxMTM4MzUyOSwiZXhwIjoxNzExMzg0OTY5fQ.qkrcGYKbVXdN305VVUtFOh4jGxuUXdz3gGSIRtiO_-o' \
+--header 'Cookie: JSESSIONID=13C0EB78C82CA061B370A7810F1CAFCF'
